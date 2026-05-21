@@ -1,0 +1,111 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.env/
+.venv/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Temporary Files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Data Lake Files
+# =========================
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+
+# =========================
+# Artifacts / Models
+# =========================
+artifacts/
+*.pkl
+*.joblib
+
+# =========================
+# Secrets / Credentials
+# =========================
+secrets/
+*.pem
+*.key
+*.crt
+
+# =========================
+# Database Files
+# =========================
+*.db
+*.sqlite3
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Operating System
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Power BI
+# =========================
+*.pbix
+
+# =========================
+# Binary Files
+# =========================
+bin/
+*.exe
+
+# =========================
+# Test / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Keep Empty Folders
+# =========================
+!logs/.gitkeep
+!tmp/.gitkeep
+!tmp/cache/.gitkeep
+!tmp/checkpoints/.gitkeep
+!tmp/exports/.gitkeep
+!data/raw/.gitkeep
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+!secrets/.gitkeep
