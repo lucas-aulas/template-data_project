@@ -28,37 +28,37 @@ venv/
 # Logs
 # =========================
 logs/
-*.log
+logs/*.log
 
 # =========================
 # Temporary Files
 # =========================
-tmp/
-temp/
-*.tmp
+# tmp/
+temp/*.tmp
 
 # =========================
 # Data Lake Files
 # =========================
-data/raw/
-data/bronze/
-data/silver/
-data/gold/
+data/raw/*
+data/bronze/*
+data/silver/*
+data/gold/*
 
 # =========================
 # Artifacts / Models
 # =========================
-artifacts/
-*.pkl
-*.joblib
+# artifacts/
+artifacts/*.pkl
+artifacts/*.joblib
 
 # =========================
 # Secrets / Credentials
 # =========================
-secrets/
-*.pem
-*.key
-*.crt
+# secrets/
+secrets/*.pem
+secrets/*.key
+secrets/*.crt
+secrets/*.json
 
 # =========================
 # Database Files
@@ -81,13 +81,13 @@ Thumbs.db
 # =========================
 # Power BI
 # =========================
-*.pbix
+# *.pbix
 
 # =========================
 # Binary Files
 # =========================
-bin/
-*.exe
+# bin/
+# *.exe
 
 # =========================
 # Test / Coverage
@@ -95,17 +95,3 @@ bin/
 .coverage
 htmlcov/
 .pytest_cache/
-
-# =========================
-# Keep Empty Folders
-# =========================
-!logs/.gitkeep
-!tmp/.gitkeep
-!tmp/cache/.gitkeep
-!tmp/checkpoints/.gitkeep
-!tmp/exports/.gitkeep
-!data/raw/.gitkeep
-!data/bronze/.gitkeep
-!data/silver/.gitkeep
-!data/gold/.gitkeep
-!secrets/.gitkeep
