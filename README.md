@@ -22,7 +22,7 @@ Description paragraph
 - [Documentation](#documentation)
 - [License](#license)
 - [Dependencies](#dependencies)
-- [Project Structure]()
+- [Project Structure](#project-structure)
 
 ## Main Features
 
@@ -51,11 +51,11 @@ The source code is currently hosted on GitHub at: https://github.com/_____
 	python script.py          # executa o script
 	```
 	```sh
-    # Windows
+    # macOS
     ...
 	```
 	```sh
-    # macOS
+    # Windows
     ...
 	```
 
@@ -63,12 +63,10 @@ The source code is currently hosted on GitHub at: https://github.com/_____
 - [Documentation](https://github.com/_____/_____/blob/main/docs/_____.md)
 
 ## License
-- [MIT](https://github.com/_____/blob/main/LICENSE)
+- [_____](https://github.com/_____/blob/main/LICENSE)
 
 ## Dependencies
-- [beaultifulsoup4](https://pypi.org/project/beaultifulsoup4) | [pandas](https://pandas.pydata.org) | [quati](https://pypi.org/project/quati) | [requests](https://pypi.org/project/requests) | [selenium](https://www.automation.dev) | [tmdbsimple](https://pypi.org/project/tmdbsimple)
-
-<hr>
+- [_____](https://pypi.org/project/_____)
 
 ## Project Structure
 
@@ -156,5 +154,7 @@ The source code is currently hosted on GitHub at: https://github.com/_____
 └── utils # Helpers e scripts utilitários independentes
     └── file_utils.py
 ```
+
+<hr>
 
 [⇧ Go to Top](#table-of-contents)
