@@ -1,6 +1,0 @@
-beautifulsoup4
-kagglehub
-pandas
-requests
-tmdbsimple
-quati
