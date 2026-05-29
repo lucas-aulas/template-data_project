@@ -1,9 +1,4 @@
 <div align="center">
-  <a href="https://github.com/lucas-aulas/template-data_project/raw/refs/heads/main/template-data_project.zip">
-	  <img src="https://custom-icon-badges.demolab.com/badge/-Download-29903B?style=for-the-badge&logo=download&logoColor=white"></a>
-</div>
-
-<div align="center">
 	<img src="https://picsum.photos/seed/picsum/1080/200">
 	<hr>
 <h1>PROJECT: for ...</h1>
