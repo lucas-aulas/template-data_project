@@ -1,7 +1,7 @@
 <div align="center">
-	<img src="https://picsum.photos/seed/picsum/1080/200">
+	<img width="30%" src="https://t.ctcdn.com.br/pM9bRsGXQE84cGHlr7Xu2zOXRzU=/1200x675/smart/i760224.jpeg">
 	<hr>
-<h1>PROJECT: for ...</h1>
+<h1>Faturamento nos cinemas • DC vs Marvel</h1>
 
 <img src="https://img.shields.io/badge/License-MIT-750014.svg">
 <img src="https://img.shields.io/pypi/pyversions/quati?logo=python&logoColor=white&label=Python">
