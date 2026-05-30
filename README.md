@@ -1,76 +1,19 @@
 <div align="center">
 	<img width="30%" src="https://t.ctcdn.com.br/pM9bRsGXQE84cGHlr7Xu2zOXRzU=/1200x675/smart/i760224.jpeg">
-<h1>Faturamento nos cinemas • DC vs Marvel</h1>
-
-<img src="https://img.shields.io/badge/License-MIT-750014.svg">
-<img src="https://img.shields.io/pypi/pyversions/quati?logo=python&logoColor=white&label=Python">
-<br>
-<img src="https://img.shields.io/badge/Code Style-Black Formatter-111.svg"> 
-<br>
-
+	<h1>Faturamento nos cinemas • DC vs Marvel</h1>
 </div>
 
-## What is it?
-Description paragraph
-
-<h2>Table of Contents</h2>
-
-- [What is it?](#what-is-it)
-- [Main Features](#main-features)
-- [Where to get it / Install](#where-to-get-it--install)
-- [Documentation](#documentation)
-- [License](#license)
-- [Dependencies](#dependencies)
-- [Project Structure](#project-structure)
-
-## Main Features
-
-⠀⠀[**`some_function()`**](_____): quick description <br>
-⠀⠀[**`some_feature`**](_____): quick description <br>
-⠀⠀[**`SomeClass`**](_____): quick description <br>
-⠀⠀...
-
-## Where to get it / Install
-The source code is currently hosted on GitHub at: https://github.com/_____
-
-> [!WARNING]
-> It's essential to use [**Python 3.10**](https://www.python.org/downloads/release/python-310/) version
-
-- GitHub
-	```sh
-	# GitHub
-	pip install git+https://github.com/_____
-	```
-
-- Setup
-	```sh
-    # Linux
-	python3.10 -m venv .venv  # cria ambiente virtual
-	source .venv/bin/activete # ativa o ambiente virtual
-	python script.py          # executa o script
-	```
-	```sh
-    # macOS
-    ...
-	```
-	```sh
-    # Windows
-    ...
-	```
-
 ## Documentation
-- [Documentation](https://github.com/_____/_____/blob/main/docs/_____.md)
-
-## License
-- [_____](https://github.com/_____/blob/main/LICENSE)
+- [Documentation](docs/doc.md)
 
 ## Dependencies
-- [_____](https://pypi.org/project/_____)
+- [db-dtypes](https://pypi.org/project/db-dtypes) | [google-auth](https://pypi.org/project/google-auth) | [google-cloud-bigquery](https://pypi.org/project/google-cloud-bigquery) | [igmapper](https://pypi.org/project/igmapper) | [ipykernel](https://pypi.org/project/ipykernel) | [pandas-gbq](https://pypi.org/project/pandas-gbq) | [pandas](https://pypi.org/project/pandas) | [selenium](https://pypi.org/project/selenium) | [tmdbsimple](https://pypi.org/project/tmdbsimple)
 
 ## Project Structure
 
 ```sh
-•
+data_project-202605-movies_dc_vs_marvel
+.
 ├── README.md # Visão geral e instruções do projeto
 ├── requirements.txt # Dependências Python
 │
