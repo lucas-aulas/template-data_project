@@ -75,84 +75,23 @@ The source code is currently hosted on GitHub at: https://github.com/_____
 ├── README.md # Visão geral e instruções do projeto
 ├── requirements.txt # Dependências Python
 │
-├── artifacts # Modelos .pkl, embeddings e objetos serializados
-│   └── revenue_model.pkl
-│
 ├── bin # Binários e executáveis auxiliares
 │   └── chromedriver.exe
 │
 ├── dashboard # Dashboards e arquivos visuais
 │   └── marvel_vs_dc.pbix
 │
-├── data # Camadas do Data Lake
-│   ├── bronze # Dados brutos ingeridos
-│   │   └── bronze_imdb_movies_raw.csv
-│   │
-│   ├── gold # Camada analítica/modelagem dimensional
-│   │   └── fact_movie_performance.parquet
-│   │
-│   ├── raw # Dados originais das fontes externas
-│   │   └── imdb_movies.csv
-│   │
-│   └── silver # Dados tratados e enriquecidos
-│       └── silver_movies.parquet
-│
 ├── docs # Documentação técnica
 │   └── architecture.md
-│
-├── logs # Logs de execução e erros
-│   └── pipeline.log
 │
 ├── notebooks # Exploração e validação analítica
 │   └── exploration.ipynb
 │
-├── pipelines # Pipelines ETL principais
-│   ├── gold # Construção da camada Gold
-│   │   └── build_fact_table.py
-│   │
-│   ├── ingestion # Ingestão de dados
-│   │   └── ingest_imdb.py
-│   │
-│   └── transformation # Transformação e limpeza
-│       └── transform_movies.py
-│
 ├── secrets # Credenciais e arquivos sensíveis
 │   └── service_account.json
 │
-├── sql # Scripts SQL analíticos e estruturais
-│   └── analytics_queries.sql
-│
-├── src # Código-fonte principal da aplicação
-│   ├── database # Persistência e conexão com banco
-│   │   └── postgres_connection.py
-│   │
-│   ├── gold # Regras da camada Gold
-│   │   └── build_dimensions.py
-│   │
-│   ├── ingestion # Funções auxiliares de ingestão
-│   │   └── imdb_loader.py
-│   │
-│   ├── transform # Funções de transformação
-│   │   └── financial_metrics.py
-│   │
-│   └── utils # Funções utilitárias reutilizáveis
-│       └── parsing.py
-│
-├── tests # Testes automatizados
-│   └── test_metrics.py
-│
-├── tmp # Arquivos temporários
-│   ├── cache # Cache intermediário
-│   │   └── cached_movies.pkl
-│   │
-│   ├── checkpoints # Controle de execução
-│   │   └── pipeline_checkpoint.json
-│   │
-│   └── exports # Exportações temporárias
-│       └── movies_export.csv
-│
-└── utils # Helpers e scripts utilitários independentes
-    └── file_utils.py
+└── sql # Scripts SQL analíticos e estruturais
+    └── analytics_queries.sql
 ```
 
 <hr>
